@@ -38,6 +38,8 @@ _**Chuck Norris Jokes** it's a website where you will be able to find multiple j
 
 #### Data
 
+> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
+
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
 | Chuck Norris API |      yes      | _http://www.icndb.com/api/_ | _http://api.icndb.com/jokes/random_ |
@@ -55,7 +57,7 @@ src
       |__ Footer.jsx
 ```
 
-
+<br>
 
 #### Component Breakdown
 
@@ -104,5 +106,3 @@ src
 
 
 ### Code Issues & Resolutions
-
-
