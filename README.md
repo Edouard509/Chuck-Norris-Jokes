@@ -6,7 +6,6 @@
 
 ### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
 
 https://whimsical.com/PuHBBYw5GFtnwLgfnzfYYV
 
@@ -38,7 +37,6 @@ https://whimsical.com/LgG8QyseAJhUH4fcL7fGNT
 
 #### Data
 
-> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
@@ -104,8 +102,6 @@ src
 ## Project Delivery
 
 ### Code Showcase
-
-
 
 ### Code Issues & Resolutions
 
