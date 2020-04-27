@@ -1,6 +1,6 @@
 ### Overview
 
-_**Chuck Norris Jokes** it's a website where you will be able to find multiple jokes of chuck norris just by clicking on a button and it will refresh to a new joke each time.
+**Chuck Norris Jokes** it's a website where you will be able to find multiple jokes of chuck norris just by clicking on a button and it will refresh to a new joke each time.
 
 <br>
 
@@ -67,7 +67,7 @@ src
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    App.js    | class |   n   |   n   | _This will be the parent component and hold the informations_               |
 |  Header.js  | functional |   n   |   n   | _The header will contain the app name._       |
-|   Home.js    |   class    |   y   |   y   | _The home will have the jokes _      |
+|   Home.js    |   class    |   y   |   y   | _The home will have the jokes_      |
 | Biography.js | class |   y   |   y   | _It will be showing brief biography of Chuck Norris._                 |
 |    Footer.js    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
 
