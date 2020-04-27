@@ -45,7 +45,9 @@ https://whimsical.com/LgG8QyseAJhUH4fcL7fGNT
 <br>
 
 #### Component Hierarchy
+```
 
+```
 src
 |__ components/
       |__ App.jsx
@@ -53,6 +55,8 @@ src
       |__ Home.jsx
       |__ Biography.jsx
       |__ Footer.jsx
+
+
 ```
 
 ```
