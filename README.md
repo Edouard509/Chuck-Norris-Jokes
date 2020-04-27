@@ -8,11 +8,11 @@
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
-![Dummy Link](https://whimsical.com/PuHBBYw5GFtnwLgfnzfYYV)
+https://whimsical.com/PuHBBYw5GFtnwLgfnzfYYV
 
 - Desktop Landing
 
-![Dummy Link](https://whimsical.com/LgG8QyseAJhUH4fcL7fGNT)
+https://whimsical.com/LgG8QyseAJhUH4fcL7fGNT
 
 - Mobile
 
