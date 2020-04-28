@@ -7,11 +7,11 @@
 ### Wireframes
 
 
-https://whimsical.com/PuHBBYw5GFtnwLgfnzfYYV
+https://github.com/Edouard509/Chuck-Norris-Jokes/blob/master/windows.png
 
 - Desktop Landing
 
-https://whimsical.com/LgG8QyseAJhUH4fcL7fGNT
+https://github.com/Edouard509/Chuck-Norris-Jokes/blob/master/iphonex.png
 
 - Mobile
 
