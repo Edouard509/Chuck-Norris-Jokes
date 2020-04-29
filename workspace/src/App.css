@@ -61,6 +61,10 @@ header ul li a{
   padding: 5px 10px;
 }
 
+.main-box{
+  min-height: 100vh;
+}
+
 main {
   display: flex;
   justify-content: space-around;
@@ -99,7 +103,7 @@ button {
   background: rgb(240, 121, 56);
   height: 50px;
   margin-top:15px; 
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
