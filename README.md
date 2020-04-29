@@ -48,11 +48,11 @@ https://github.com/Edouard509/Chuck-Norris-Jokes/blob/master/iphonex.png
 ```
 src
 |__ components/
-      |__ App.jsx
-      |__ Header.jsx
-      |__ Home.jsx
-      |__ Biography.jsx
-      |__ Footer.jsx
+      |__ App.js
+      |__ Header.js
+      |__ Main.js
+      |__ Biography.js
+      |__ Footer.js
 
 
 

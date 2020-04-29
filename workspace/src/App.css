@@ -1,14 +1,64 @@
-
-header {
-  height: 65px;
-  background-color: rgb(62, 61, 61);
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  background: rgb(156, 213, 249);
+  height: 100%;
 }
 
-header h1 {
-  padding-top: 10px;
-  padding-left: 30px;
-  margin-top: 0;
-  color: white; 
+header *{
+  color: black;
+}
+
+header{
+  background: rgb(240, 121, 56);
+  height: 66px;
+}
+
+header .logo{
+  float: left;
+  height: inherit;
+  margin-left: 16px;
+}
+
+header .logo-text{
+  margin: 10px;
+  font-family: 'Courgette', cursive;
+}
+
+header ul{
+  float: right ;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header ul li{
+  float: left;
+}
+
+header ul li a{
+  display: block;
+  padding: 21px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.bio{
+  width: 50%;
+  /* height: 100%; */
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border: 2px solid rgb(213, 206, 206);
+  border-radius: 10px;
+  background-color: rgb(240, 121, 56);
+}
+
+.bio h1{
+  text-align: center;
+  padding: 5px 10px;
 }
 
 main {
@@ -17,17 +67,19 @@ main {
   flex-direction: column;
   align-items: center;
   height: 500px;
+  min-height: 100%;
 }
 
-.norris-joke {
+.main-container{
   width: 50%;
-  color: rgb(52, 52, 52);
+  color: black;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   border: 2px solid rgb(213, 206, 206);
   border-radius: 10px;
+  background-color: rgb(240, 121, 56);
 }
 
-.norris-joke h1 {
+.main-container h1{
   text-align: center;
   padding: 5px 10px;
 }
@@ -35,10 +87,35 @@ main {
 button {
   width: 200px;
   height: 55px;
-  background-color: rgb(62, 61, 61);
+  background-color: rgb(148, 68, 67);
   color: white;
   font-size: 24px;
   font-weight: bold;
   border-radius: 10px;
   outline: none;
 } 
+
+.footer{
+  background: rgb(240, 121, 56);
+  height: 50px;
+  margin-top:15px; 
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .footer-bottom{
+  background: rgba(0,0,0,0.2);
+  color: rgb(23, 22, 22);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+
+
