@@ -138,12 +138,13 @@ button {
   header ul{
     width: 100%;
     background: rgb(240, 160, 99);
-    max-height: 0px;
+    display: none;
+    /* max-height: 0px; */
     /* overflow: hidden; */
   }
 
   .overflow{
-    overflow: hidden;
+    display: block;
   }
 
   header ul li{
