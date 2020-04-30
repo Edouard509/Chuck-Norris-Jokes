@@ -1,0 +1,15 @@
+button {
+  border-radius: 2px;
+  padding: 5px 25px;
+  color: white;
+}
+.primary {
+  width: 200px;
+  height: 55px;
+  background-color: rgb(148, 68, 67);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+}
