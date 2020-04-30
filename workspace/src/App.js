@@ -40,7 +40,7 @@ function App() {
           <Route exact path="/biography">
             <h1>Biography</h1>
             <div className="bio">
-              <h1> Chuck Norris is familiar to fans worldwide as the star of action films such as The Hitman (1991), The Delta Force (1986) and Delta Force 2: The Colombian Connection (1990). He also starred in Missing in Action (1984) and its sequels, Firewalker (1986) and Sidekicks (1992). He was an executive producer of Walker, Texas Ranger (1993) as well as the star.</h1>
+              <h3> Chuck Norris is familiar to fans worldwide as the star of action films such as The Hitman (1991), The Delta Force (1986) and Delta Force 2: The Colombian Connection (1990). He also starred in Missing in Action (1984) and its sequels, Firewalker (1986) and Sidekicks (1992). He was an executive producer of Walker, Texas Ranger (1993) as well as the star.</h3>
             </div>
           </Route>
         </main>

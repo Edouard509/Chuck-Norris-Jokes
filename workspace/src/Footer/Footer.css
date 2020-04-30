@@ -1,0 +1,21 @@
+.footer{
+  background: rgb(240, 121, 56);
+  height: 50px;
+  margin-top:15px; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .footer-bottom{
+  background: rgba(0,0,0,0.2);
+  color: rgb(23, 22, 22);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}

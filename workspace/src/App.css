@@ -46,6 +46,15 @@ header ul li a{
   text-decoration: none;
 }
 
+header ul li a:hover{
+  background: rgb(222, 84, 10);
+  transition: 0.5s
+}
+
+header .menu-toggle{
+  display: none;
+}
+
 .bio{
   width: 50%;
   /* height: 100%; */
@@ -56,7 +65,7 @@ header ul li a{
   background-color: rgb(240, 121, 56);
 }
 
-.bio h1{
+.bio h3{
   text-align: center;
   padding: 5px 10px;
 }
@@ -121,5 +130,118 @@ button {
   padding-top: 20px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 812px){
 
+  header{
+    position: relative;
+  }
+  header ul{
+    width: 100%;
+    background: rgb(240, 160, 99);
+    max-height: 0px;
+    /* overflow: hidden; */
+  }
 
+  .overflow{
+    overflow: hidden;
+  }
+
+  header ul li{
+    width: 100%;
+  }
+
+  header .logo{
+    margin-left: .8em;
+  }
+  
+  header .logo-text{
+   font-size: 1.8em;
+  }
+
+  header .menu-toggle{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 1.9em;
+  }
+
+  main {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    min-height: 100%;
+  }
+
+  main h1{
+    text-align: center;
+  }
+
+  .main-container{
+    width: 60%;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid rgb(213, 206, 206);
+    border-radius: 10px;
+    background-color: rgb(240, 121, 56);
+    align-items: center;
+    margin: 80px;
+  }
+  
+  .main-container h3{
+    text-align: center;
+    padding: 5px 10px;
+  }
+
+  button {
+    width: 200px;
+    height: 55px;
+    background-color: rgb(148, 68, 67);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    margin: 80px;
+  }
+
+  .bio{
+    width: 60%;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid rgb(213, 206, 206);
+    border-radius: 10px;
+    background-color: rgb(240, 121, 56);
+    align-items: center;
+    margin: 80px;
+  }
+  
+  .bio h1{
+    text-align: center;
+    padding: 5px 10px;
+  }
+
+  .footer{
+    background: rgb(240, 121, 56);
+    height: 65px;
+    margin-top:15px; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer .footer-bottom{
+    background: rgba(0,0,0,0.2);
+    color: rgb(23, 22, 22);
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+  }
+}

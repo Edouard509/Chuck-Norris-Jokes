@@ -7,7 +7,7 @@ export default function Main(props) {
   return (
     <>
       <div className="main-container">
-        <h1>{props.joke}</h1>
+        <h3>{props.joke}</h3>
       </div>
     </>
   )
