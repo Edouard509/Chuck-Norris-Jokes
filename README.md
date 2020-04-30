@@ -51,7 +51,6 @@ src
       |__ App.js
       |__ Header.js
       |__ Main.js
-      |__ Biography.js
       |__ Footer.js
 
 
