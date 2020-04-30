@@ -17,7 +17,7 @@ function App() {
 
   const getResults = async () => {
     const response = await axios
-      .get(`https://api.icndb.com/jokes/random`, { headers: { 'Accept': 'application/json' } })
+      .get(`https://corsanywhere.herokuapp.com/api.icndb.com/jokes/random`, { headers: { 'Accept': 'application/json' } })
     setJoke(response.data.value.joke)
     console.log(response)
   }
