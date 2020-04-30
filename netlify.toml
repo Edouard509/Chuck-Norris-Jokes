@@ -1,4 +1,4 @@
 [build]
   command = "npm run build"
-  publish="Chuck-Norris-Jokes/build"
-  base = "Chuck-Norris-Jokes"
+  publish="workspace/build"
+  base = "workspace"
