@@ -17,7 +17,7 @@ function App() {
 
   const getResults = async () => {
     const response = await axios
-      .get(`http://api.icndb.com/jokes/random`, { headers: { 'Accept': 'application/json' } })
+      .get(`https://api.icndb.com/jokes/random`, { headers: { 'Accept': 'application/json' } })
     setJoke(response.data.value.joke)
     console.log(response)
   }
